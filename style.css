@@ -1,0 +1,122 @@
+body {
+    font-size: 15pt;
+    background-color: pink;
+}
+
+.Container {
+    background-color: deeppink;
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.Container h1 {
+    color: white;
+    text-align: center;
+     font-family: "Chango", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+    /* outline palsu (rapi) */
+    text-shadow:
+        1px 1px 0 hotpink,
+        -1px -1px 0 hotpink,
+        1px -1px 0 hotpink,
+        -1px 1px 0 hotpink;
+    
+    font-weight: bold;
+    
+}
+
+.Container h2 {
+    color: white;
+    text-align: center;
+     font-family: "Rowdies", sans-serif;
+ 
+  font-style: normal;
+    text-shadow:
+        1px 1px 0 pink,
+        -1px -1px 0 pink,
+        1px -1px 0 pink,
+        -1px 1px 0 pink;
+}
+
+
+.button {
+background: linear-gradient(45deg, pink, hotpink);
+color: white;
+border: none;
+padding: 12px 25px;
+border-radius: 20px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s;
+    margin-top: 500px;
+    position: fixed;
+    margin-left: 80px;
+    font-family: "Changa One", sans-serif;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.5);
+}
+
+.btn-yes {
+    background-color: pink;
+    color: deeppink;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid white;
+    font-family: "Changa One", sans-serif;
+}
+
+.btn-no {
+    background-color: gray;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid white;
+    transition: 0.4s ease;
+    font-family: "Changa One", sans-serif;
+}
+
+.btn-yes:hover {
+    background-color: hotpink;
+    transform: scale(1.1);
+}
+
+.btn-no:hover {
+    background-color: black;
+      
+  transform: scale(0);   /* mengecil */
+  opacity: 0;            /* menghilang */
+
+}
+
+.result {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: fixed;
+    margin-top: 450px;
+    margin-left: 68px;
+    text-shadow:
+        1px 1px 2px rgba(0, 0, 0, 0.4),
+        0 0 8px rgba(255, 255, 255, 0.6);
+   font-family: "Lobster", sans-serif;
+    transition: 0.5s;
+}
