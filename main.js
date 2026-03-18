@@ -60,7 +60,7 @@ function yesThanks() {
   
 
   
-document.getElementById("tengkyu").innerText = "Thankss Youuu 💖"
+document.getElementById("tengkyu").innerText = "I Love You💘"
   // Tab to edit
   console.info("Diterima bro")
 }
