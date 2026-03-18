@@ -41,13 +41,11 @@ typeTitle();
 
 
 
-function noSure() {
-  alert("JANGAN KLIK INI, INI MENGANDUNG VIRUS MENYAKITKAN!!!!!!!!!!!!!!!!!!!!!!!!!!")
-  // Tab to edit
-}
-
 function yesThanks() {
-    fetch("https://webhook.site/d54f6a5c-f70c-4920-89a7-804e99623a0a", {
+  const music = document.getElementById("music");
+  music.play(); // ini WAJIB dari klik user
+
+  fetch("https://webhook.site/d54f6a5c-f70c-4920-89a7-804e99623a0a", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -57,10 +55,6 @@ function yesThanks() {
       time: new Date().toLocaleString()
     })
   });
-  
 
-  
-document.getElementById("tengkyu").innerText = "I Love You💘"
-  // Tab to edit
-  console.info("Diterima bro")
+  document.getElementById("tengkyu").innerText = "I Love You 💘";
 }
